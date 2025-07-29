@@ -178,7 +178,7 @@ for round_num in range(16):
     print(*f_vars, *i_vars[4:10])
 ```  
 
-After getting the right simulation that matched the values after running the level in the level editor, I found an important observation.
+After making a valid simulation that matched the level's rdcode, I found an important observation.
 
 So the final constraints for each of the variables are:
 ```
