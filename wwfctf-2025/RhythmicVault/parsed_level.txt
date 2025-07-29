@@ -1,0 +1,1247 @@
+Loaded 487 events.
+
+=== Tag affine_prepare (2 events) ===
+@ Bar 3, Beat 2.3385651621578107, Type: CallCustomMethod: CallCustomMethod: i3 = i1
+@ Bar 3, Beat 2.3485651621578105, Type: TagAction: Run tag 0
+
+=== Tag 0 (2 events) ===
+@ Bar 3, Beat 1.678091685102316, Type: CallCustomMethod: CallCustomMethod: i1 = i2 * 31149 % 65537
+@ Bar 3, Beat 1.688091685102316, Type: TagAction: Run tag 1
+
+=== Tag 1 (2 events) ===
+@ Bar 3, Beat 3.7046110153175427, Type: CallCustomMethod: CallCustomMethod: i2 = i3 * 17627 % 65537
+@ Bar 3, Beat 3.7146110153175425, Type: TagAction: Run tag 2
+
+=== Tag 2 (4 events) ===
+@ Bar 3, Beat 3.9390309246026174, Type: TagAction: Enable tag 4
+@ Bar 3, Beat 3.949030924602617, Type: TagAction: Disable tag 4 (if i1 > 32766)
+@ Bar 3, Beat 3.959030924602617, Type: TagAction: Run tag 3 (if i1 > 32766)
+@ Bar 3, Beat 3.9690309246026168, Type: TagAction: Run tag 4
+
+=== Tag 3 (2 events) ===
+@ Bar 3, Beat 3.4497480782077194, Type: CallCustomMethod: CallCustomMethod: i1 = i1 / 3
+@ Bar 3, Beat 3.4597480782077192, Type: TagAction: Run tag 5
+
+=== Tag 5 (1 events) ===
+@ Bar 3, Beat 3.9607947685252993, Type: TagAction: Run tag 6
+
+=== Tag 4 (1 events) ===
+@ Bar 3, Beat 2.7410044301282874, Type: TagAction: Run tag 6
+
+=== Tag 6 (1 events) ===
+@ Bar 3, Beat 1.27154624320741, Type: TagAction: Run tag 7
+
+=== Tag 7 (2 events) ===
+@ Bar 3, Beat 3.888602899990031, Type: CallCustomMethod: CallCustomMethod: i3 = 0
+@ Bar 3, Beat 3.898602899990031, Type: TagAction: Run tag 8
+
+=== Tag shift (2 events) ===
+@ Bar 3, Beat 4.082945543406603, Type: CallCustomMethod: CallCustomMethod: i3 = f9
+@ Bar 3, Beat 4.092945543406603, Type: TagAction: Run tag 9
+
+=== Tag 9 (2 events) ===
+@ Bar 3, Beat 2.4473717450493044, Type: CallCustomMethod: CallCustomMethod: f9 = f8
+@ Bar 3, Beat 2.4573717450493042, Type: TagAction: Run tag 10
+
+=== Tag 10 (2 events) ===
+@ Bar 3, Beat 4.658431758177089, Type: CallCustomMethod: CallCustomMethod: f8 = f7
+@ Bar 3, Beat 4.668431758177089, Type: TagAction: Run tag 11
+
+=== Tag 11 (2 events) ===
+@ Bar 3, Beat 2.8677673704298723, Type: CallCustomMethod: CallCustomMethod: f7 = f6
+@ Bar 3, Beat 2.877767370429872, Type: TagAction: Run tag 12
+
+=== Tag 12 (2 events) ===
+@ Bar 3, Beat 4.866843157083787, Type: CallCustomMethod: CallCustomMethod: f6 = f5
+@ Bar 3, Beat 4.876843157083787, Type: TagAction: Run tag 13
+
+=== Tag 13 (2 events) ===
+@ Bar 3, Beat 1.0658616368776226, Type: CallCustomMethod: CallCustomMethod: f5 = f4
+@ Bar 3, Beat 1.0758616368776226, Type: TagAction: Run tag 14
+
+=== Tag 14 (2 events) ===
+@ Bar 3, Beat 3.0006090092657107, Type: CallCustomMethod: CallCustomMethod: f4 = f3
+@ Bar 3, Beat 3.0106090092657105, Type: TagAction: Run tag 15
+
+=== Tag 15 (2 events) ===
+@ Bar 3, Beat 1.389738394220206, Type: CallCustomMethod: CallCustomMethod: f3 = f2
+@ Bar 3, Beat 1.399738394220206, Type: TagAction: Run tag 16
+
+=== Tag 16 (2 events) ===
+@ Bar 3, Beat 1.116348036278525, Type: CallCustomMethod: CallCustomMethod: f2 = f1
+@ Bar 3, Beat 1.126348036278525, Type: TagAction: Run tag 17
+
+=== Tag 17 (2 events) ===
+@ Bar 3, Beat 3.3021395284786625, Type: CallCustomMethod: CallCustomMethod: f1 = f0
+@ Bar 3, Beat 3.3121395284786623, Type: TagAction: Run tag 18
+
+=== Tag 18 (2 events) ===
+@ Bar 3, Beat 4.125374191071174, Type: CallCustomMethod: CallCustomMethod: f0 = i9
+@ Bar 3, Beat 4.135374191071174, Type: TagAction: Run tag 19
+
+=== Tag 19 (2 events) ===
+@ Bar 3, Beat 4.797844782833935, Type: CallCustomMethod: CallCustomMethod: i9 = i8
+@ Bar 3, Beat 4.807844782833935, Type: TagAction: Run tag 20
+
+=== Tag 20 (2 events) ===
+@ Bar 3, Beat 4.122355936506214, Type: CallCustomMethod: CallCustomMethod: i8 = i7
+@ Bar 3, Beat 4.1323559365062135, Type: TagAction: Run tag 21
+
+=== Tag 21 (2 events) ===
+@ Bar 3, Beat 4.065601607948414, Type: CallCustomMethod: CallCustomMethod: i7 = i6
+@ Bar 3, Beat 4.075601607948414, Type: TagAction: Run tag 22
+
+=== Tag 22 (2 events) ===
+@ Bar 3, Beat 3.326681160705053, Type: CallCustomMethod: CallCustomMethod: i6 = i5
+@ Bar 3, Beat 3.336681160705053, Type: TagAction: Run tag 23
+
+=== Tag 23 (2 events) ===
+@ Bar 3, Beat 2.2491334326925267, Type: CallCustomMethod: CallCustomMethod: i5 = i4
+@ Bar 3, Beat 2.2591334326925265, Type: TagAction: Run tag 24
+
+=== Tag 24 (2 events) ===
+@ Bar 3, Beat 4.447495060074106, Type: CallCustomMethod: CallCustomMethod: i4 = i3
+@ Bar 3, Beat 4.4574950600741055, Type: TagAction: Run tag 25
+
+=== Tag 25 (2 events) ===
+@ Bar 3, Beat 3.609665801006116, Type: CallCustomMethod: CallCustomMethod: i3 = 0
+@ Bar 3, Beat 3.6196658010061156, Type: TagAction: Run tag 26
+
+=== Tag round (2 events) ===
+@ Bar 3, Beat 1.9239717910622258, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.9339717910622258, Type: TagAction: Run tag 27
+
+=== Tag 27 (2 events) ===
+@ Bar 3, Beat 4.135025903493391, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 4.145025903493391, Type: TagAction: Run tag 28
+
+=== Tag 29 (3 events) ===
+@ Bar 3, Beat 1.1315017316898823, Type: CallCustomMethod: CallCustomMethod: rowReflectionsJumping = 1
+@ Bar 3, Beat 1.1415017316898823, Type: TagAction: Run tag 30 (if rowReflectionsJumping)
+@ Bar 3, Beat 1.1515017316898823, Type: TagAction: Run tag 29 (if !rowReflectionsJumping)
+
+=== Tag 28 (2 events) ===
+@ Bar 3, Beat 2.685136181505512, Type: CallCustomMethod: CallCustomMethod: rowReflectionsJumping = 0
+@ Bar 3, Beat 2.6951361815055117, Type: TagAction: Run tag 29
+
+=== Tag 30 (2 events) ===
+@ Bar 3, Beat 4.683376602237782, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i4 + i2
+@ Bar 3, Beat 4.693376602237782, Type: TagAction: Run tag 31
+
+=== Tag 31 (2 events) ===
+@ Bar 3, Beat 1.51359061181661, Type: CallCustomMethod: CallCustomMethod: i4 = i3 % 65537
+@ Bar 3, Beat 1.52359061181661, Type: TagAction: Run tag 32
+
+=== Tag 32 (2 events) ===
+@ Bar 3, Beat 1.7886821156986232, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.7986821156986232, Type: TagAction: Run tag 33
+
+=== Tag 33 (2 events) ===
+@ Bar 3, Beat 2.0208449245533853, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 2.030844924553385, Type: TagAction: Run tag 34
+
+=== Tag 35 (3 events) ===
+@ Bar 3, Beat 3.020576713003998, Type: CallCustomMethod: CallCustomMethod: rowReflections = 1
+@ Bar 3, Beat 3.030576713003998, Type: TagAction: Run tag 36 (if rowReflections)
+@ Bar 3, Beat 3.040576713003998, Type: TagAction: Run tag 35 (if !rowReflections)
+
+=== Tag 34 (2 events) ===
+@ Bar 3, Beat 4.2904568190028485, Type: CallCustomMethod: CallCustomMethod: rowReflections = 0
+@ Bar 3, Beat 4.300456819002848, Type: TagAction: Run tag 35
+
+=== Tag 36 (2 events) ===
+@ Bar 3, Beat 4.358492407819795, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i5 + i2
+@ Bar 3, Beat 4.368492407819795, Type: TagAction: Run tag 37
+
+=== Tag 37 (2 events) ===
+@ Bar 3, Beat 1.028865624814113, Type: CallCustomMethod: CallCustomMethod: i5 = i3 % 65537
+@ Bar 3, Beat 1.038865624814113, Type: TagAction: Run tag 38
+
+=== Tag 38 (2 events) ===
+@ Bar 3, Beat 3.14703753544963, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 3.15703753544963, Type: TagAction: Run tag 39
+
+=== Tag 39 (2 events) ===
+@ Bar 3, Beat 1.0115659548575253, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 1.0215659548575253, Type: TagAction: Run tag 40
+
+=== Tag 41 (3 events) ===
+@ Bar 3, Beat 1.5028664952126576, Type: CallCustomMethod: CallCustomMethod: subdivisions = 1
+@ Bar 3, Beat 1.5128664952126576, Type: TagAction: Run tag 42 (if subdivisions)
+@ Bar 3, Beat 1.5228664952126576, Type: TagAction: Run tag 41 (if !subdivisions)
+
+=== Tag 40 (2 events) ===
+@ Bar 3, Beat 2.4947171210476276, Type: CallCustomMethod: CallCustomMethod: subdivisions = 0
+@ Bar 3, Beat 2.5047171210476273, Type: TagAction: Run tag 41
+
+=== Tag 42 (2 events) ===
+@ Bar 3, Beat 4.486299267841472, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i6 + i2
+@ Bar 3, Beat 4.496299267841472, Type: TagAction: Run tag 43
+
+=== Tag 43 (2 events) ===
+@ Bar 3, Beat 2.586579075506505, Type: CallCustomMethod: CallCustomMethod: i6 = i3 % 65537
+@ Bar 3, Beat 2.596579075506505, Type: TagAction: Run tag 44
+
+=== Tag 44 (2 events) ===
+@ Bar 3, Beat 1.3722201326208294, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.3822201326208294, Type: TagAction: Run tag 45
+
+=== Tag 45 (2 events) ===
+@ Bar 3, Beat 2.1570824294591775, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 2.1670824294591773, Type: TagAction: Run tag 46
+
+=== Tag 47 (3 events) ===
+@ Bar 3, Beat 1.2542089269993149, Type: CallCustomMethod: CallCustomMethod: charsOnlyOnStart = 1
+@ Bar 3, Beat 1.2642089269993149, Type: TagAction: Run tag 48 (if charsOnlyOnStart)
+@ Bar 3, Beat 1.2742089269993149, Type: TagAction: Run tag 47 (if !charsOnlyOnStart)
+
+=== Tag 46 (2 events) ===
+@ Bar 3, Beat 2.3914230793209508, Type: CallCustomMethod: CallCustomMethod: charsOnlyOnStart = 0
+@ Bar 3, Beat 2.4014230793209506, Type: TagAction: Run tag 47
+
+=== Tag 48 (2 events) ===
+@ Bar 3, Beat 2.859057640664205, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i7 + i2
+@ Bar 3, Beat 2.869057640664205, Type: TagAction: Run tag 49
+
+=== Tag 49 (2 events) ===
+@ Bar 3, Beat 3.954407743918058, Type: CallCustomMethod: CallCustomMethod: i7 = i3 % 65537
+@ Bar 3, Beat 3.964407743918058, Type: TagAction: Run tag 50
+
+=== Tag 50 (2 events) ===
+@ Bar 3, Beat 2.737754871452166, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.7477548714521656, Type: TagAction: Run tag 51
+
+=== Tag 51 (2 events) ===
+@ Bar 3, Beat 3.33479205483064, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 3.3447920548306396, Type: TagAction: Run tag 52
+
+=== Tag 53 (3 events) ===
+@ Bar 3, Beat 3.4650615562158755, Type: CallCustomMethod: CallCustomMethod: noRowAnimsOnStart = 1
+@ Bar 3, Beat 3.4750615562158753, Type: TagAction: Run tag 54 (if noRowAnimsOnStart)
+@ Bar 3, Beat 3.485061556215875, Type: TagAction: Run tag 53 (if !noRowAnimsOnStart)
+
+=== Tag 52 (2 events) ===
+@ Bar 3, Beat 3.979439911102512, Type: CallCustomMethod: CallCustomMethod: noRowAnimsOnStart = 0
+@ Bar 3, Beat 3.9894399111025116, Type: TagAction: Run tag 53
+
+=== Tag 54 (2 events) ===
+@ Bar 3, Beat 1.552450077198404, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i8 + i2
+@ Bar 3, Beat 1.562450077198404, Type: TagAction: Run tag 55
+
+=== Tag 55 (2 events) ===
+@ Bar 3, Beat 4.169581712312109, Type: CallCustomMethod: CallCustomMethod: i8 = i3 % 65537
+@ Bar 3, Beat 4.179581712312109, Type: TagAction: Run tag 56
+
+=== Tag 56 (2 events) ===
+@ Bar 3, Beat 3.5684008154774087, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 3.5784008154774085, Type: TagAction: Run tag 57
+
+=== Tag 57 (2 events) ===
+@ Bar 3, Beat 3.485603912840508, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 3.4956039128405076, Type: TagAction: Run tag 58
+
+=== Tag 59 (3 events) ===
+@ Bar 3, Beat 3.3561184886021516, Type: CallCustomMethod: CallCustomMethod: noHands = 1
+@ Bar 3, Beat 3.3661184886021513, Type: TagAction: Run tag 60 (if noHands)
+@ Bar 3, Beat 3.376118488602151, Type: TagAction: Run tag 59 (if !noHands)
+
+=== Tag 58 (2 events) ===
+@ Bar 3, Beat 1.6807984660498678, Type: CallCustomMethod: CallCustomMethod: noHands = 0
+@ Bar 3, Beat 1.6907984660498678, Type: TagAction: Run tag 59
+
+=== Tag 60 (2 events) ===
+@ Bar 3, Beat 3.305125658722817, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * i9 + i2
+@ Bar 3, Beat 3.315125658722817, Type: TagAction: Run tag 61
+
+=== Tag 61 (2 events) ===
+@ Bar 3, Beat 3.164203697015248, Type: CallCustomMethod: CallCustomMethod: i9 = i3 % 65537
+@ Bar 3, Beat 3.1742036970152476, Type: TagAction: Run tag 62
+
+=== Tag 62 (2 events) ===
+@ Bar 3, Beat 2.6240813181451585, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.6340813181451583, Type: TagAction: Run tag 63
+
+=== Tag 63 (2 events) ===
+@ Bar 3, Beat 4.284554424410262, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 4.294554424410261, Type: TagAction: Run tag 64
+
+=== Tag 65 (3 events) ===
+@ Bar 3, Beat 2.5589833387829897, Type: CallCustomMethod: CallCustomMethod: hideHandsOnStart = 1
+@ Bar 3, Beat 2.5689833387829895, Type: TagAction: Run tag 66 (if hideHandsOnStart)
+@ Bar 3, Beat 2.5789833387829892, Type: TagAction: Run tag 65 (if !hideHandsOnStart)
+
+=== Tag 64 (2 events) ===
+@ Bar 3, Beat 4.684697273354146, Type: CallCustomMethod: CallCustomMethod: hideHandsOnStart = 0
+@ Bar 3, Beat 4.694697273354146, Type: TagAction: Run tag 65
+
+=== Tag 66 (2 events) ===
+@ Bar 3, Beat 3.4453567261211484, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f0 + i2
+@ Bar 3, Beat 3.455356726121148, Type: TagAction: Run tag 67
+
+=== Tag 67 (2 events) ===
+@ Bar 3, Beat 4.5686160726912455, Type: CallCustomMethod: CallCustomMethod: f0 = i3 % 65537
+@ Bar 3, Beat 4.578616072691245, Type: TagAction: Run tag 68
+
+=== Tag 68 (2 events) ===
+@ Bar 3, Beat 2.748625579374021, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.7586255793740206, Type: TagAction: Run tag 69
+
+=== Tag 69 (2 events) ===
+@ Bar 3, Beat 2.884236566761155, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 2.8942365667611547, Type: TagAction: Run tag 70
+
+=== Tag 71 (3 events) ===
+@ Bar 3, Beat 2.7257078055219877, Type: CallCustomMethod: CallCustomMethod: noOneshotShadows = 1
+@ Bar 3, Beat 2.7357078055219874, Type: TagAction: Run tag 72 (if noOneshotShadows)
+@ Bar 3, Beat 2.7457078055219872, Type: TagAction: Run tag 71 (if !noOneshotShadows)
+
+=== Tag 70 (2 events) ===
+@ Bar 3, Beat 1.7645036843244313, Type: CallCustomMethod: CallCustomMethod: noOneshotShadows = 0
+@ Bar 3, Beat 1.7745036843244313, Type: TagAction: Run tag 71
+
+=== Tag 72 (2 events) ===
+@ Bar 3, Beat 2.5162125730847613, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f1 + i2
+@ Bar 3, Beat 2.526212573084761, Type: TagAction: Run tag 73
+
+=== Tag 73 (2 events) ===
+@ Bar 3, Beat 1.4965279624025447, Type: CallCustomMethod: CallCustomMethod: f1 = i3 % 65537
+@ Bar 3, Beat 1.5065279624025447, Type: TagAction: Run tag 74
+
+=== Tag 74 (2 events) ===
+@ Bar 3, Beat 1.08662637857381, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.09662637857381, Type: TagAction: Run tag 75
+
+=== Tag 75 (2 events) ===
+@ Bar 3, Beat 1.2317314573156066, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 1.2417314573156066, Type: TagAction: Run tag 76
+
+=== Tag 77 (3 events) ===
+@ Bar 3, Beat 1.8928937847631335, Type: CallCustomMethod: CallCustomMethod: noBananaBeats = 1
+@ Bar 3, Beat 1.9028937847631335, Type: TagAction: Run tag 78 (if noBananaBeats)
+@ Bar 3, Beat 1.9128937847631335, Type: TagAction: Run tag 77 (if !noBananaBeats)
+
+=== Tag 76 (2 events) ===
+@ Bar 3, Beat 1.2616200744027104, Type: CallCustomMethod: CallCustomMethod: noBananaBeats = 0
+@ Bar 3, Beat 1.2716200744027104, Type: TagAction: Run tag 77
+
+=== Tag 78 (2 events) ===
+@ Bar 3, Beat 1.445863448203103, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f2 + i2
+@ Bar 3, Beat 1.455863448203103, Type: TagAction: Run tag 79
+
+=== Tag 79 (2 events) ===
+@ Bar 3, Beat 3.5637292147571746, Type: CallCustomMethod: CallCustomMethod: f2 = i3 % 65537
+@ Bar 3, Beat 3.5737292147571744, Type: TagAction: Run tag 80
+
+=== Tag 80 (2 events) ===
+@ Bar 3, Beat 1.0275436129311766, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.0375436129311766, Type: TagAction: Run tag 81
+
+=== Tag 81 (2 events) ===
+@ Bar 3, Beat 3.7465683383034243, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 3.756568338303424, Type: TagAction: Run tag 82
+
+=== Tag 83 (3 events) ===
+@ Bar 3, Beat 1.2309139477126312, Type: CallCustomMethod: CallCustomMethod: multiwindow = 1
+@ Bar 3, Beat 1.2409139477126312, Type: TagAction: Run tag 84 (if multiwindow)
+@ Bar 3, Beat 1.2509139477126312, Type: TagAction: Run tag 83 (if !multiwindow)
+
+=== Tag 82 (2 events) ===
+@ Bar 3, Beat 3.526392950834516, Type: CallCustomMethod: CallCustomMethod: multiwindow = 0
+@ Bar 3, Beat 3.5363929508345158, Type: TagAction: Run tag 83
+
+=== Tag 84 (2 events) ===
+@ Bar 3, Beat 2.699758201991244, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f3 + i2
+@ Bar 3, Beat 2.7097582019912436, Type: TagAction: Run tag 85
+
+=== Tag 85 (2 events) ===
+@ Bar 3, Beat 4.859898715678964, Type: CallCustomMethod: CallCustomMethod: f3 = i3 % 65537
+@ Bar 3, Beat 4.869898715678964, Type: TagAction: Run tag 86
+
+=== Tag 86 (2 events) ===
+@ Bar 3, Beat 4.726968645736521, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 4.736968645736521, Type: TagAction: Run tag 87
+
+=== Tag 87 (2 events) ===
+@ Bar 3, Beat 2.5528422408503784, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 2.562842240850378, Type: TagAction: Run tag 88
+
+=== Tag 89 (3 events) ===
+@ Bar 3, Beat 4.060746784972048, Type: CallCustomMethod: CallCustomMethod: dogMode = 1
+@ Bar 3, Beat 4.070746784972048, Type: TagAction: Run tag 90 (if dogMode)
+@ Bar 3, Beat 4.080746784972048, Type: TagAction: Run tag 89 (if !dogMode)
+
+=== Tag 88 (2 events) ===
+@ Bar 3, Beat 4.089895699078144, Type: CallCustomMethod: CallCustomMethod: dogMode = 0
+@ Bar 3, Beat 4.099895699078144, Type: TagAction: Run tag 89
+
+=== Tag 90 (2 events) ===
+@ Bar 3, Beat 4.694647880781227, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f4 + i2
+@ Bar 3, Beat 4.704647880781227, Type: TagAction: Run tag 91
+
+=== Tag 91 (2 events) ===
+@ Bar 3, Beat 2.6358774258989657, Type: CallCustomMethod: CallCustomMethod: f4 = i3 % 65537
+@ Bar 3, Beat 2.6458774258989655, Type: TagAction: Run tag 92
+
+=== Tag 92 (2 events) ===
+@ Bar 3, Beat 2.8727623621390785, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.8827623621390783, Type: TagAction: Run tag 93
+
+=== Tag 93 (2 events) ===
+@ Bar 3, Beat 4.26391131641977, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 4.2739113164197695, Type: TagAction: Run tag 94
+
+=== Tag 95 (3 events) ===
+@ Bar 3, Beat 1.836534457820097, Type: CallCustomMethod: CallCustomMethod: instantRowChange = 1
+@ Bar 3, Beat 1.846534457820097, Type: TagAction: Run tag 96 (if instantRowChange)
+@ Bar 3, Beat 1.856534457820097, Type: TagAction: Run tag 95 (if !instantRowChange)
+
+=== Tag 94 (2 events) ===
+@ Bar 3, Beat 2.64788854737698, Type: CallCustomMethod: CallCustomMethod: instantRowChange = 0
+@ Bar 3, Beat 2.65788854737698, Type: TagAction: Run tag 95
+
+=== Tag 96 (2 events) ===
+@ Bar 3, Beat 1.0752308208864942, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f5 + i2
+@ Bar 3, Beat 1.0852308208864943, Type: TagAction: Run tag 97
+
+=== Tag 97 (2 events) ===
+@ Bar 3, Beat 1.498883161467334, Type: CallCustomMethod: CallCustomMethod: f5 = i3 % 65537
+@ Bar 3, Beat 1.508883161467334, Type: TagAction: Run tag 98
+
+=== Tag 98 (2 events) ===
+@ Bar 3, Beat 3.800529369988833, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 3.8105293699888327, Type: TagAction: Run tag 99
+
+=== Tag 99 (2 events) ===
+@ Bar 3, Beat 3.464395972642743, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 3.4743959726427427, Type: TagAction: Run tag 100
+
+=== Tag 101 (3 events) ===
+@ Bar 3, Beat 3.1975191026305163, Type: CallCustomMethod: CallCustomMethod: disableRowChangeWarningFlashes = 1
+@ Bar 3, Beat 3.207519102630516, Type: TagAction: Run tag 102 (if disableRowChangeWarningFlashes)
+@ Bar 3, Beat 3.217519102630516, Type: TagAction: Run tag 101 (if !disableRowChangeWarningFlashes)
+
+=== Tag 100 (2 events) ===
+@ Bar 3, Beat 4.507560516076248, Type: CallCustomMethod: CallCustomMethod: disableRowChangeWarningFlashes = 0
+@ Bar 3, Beat 4.517560516076248, Type: TagAction: Run tag 101
+
+=== Tag 102 (2 events) ===
+@ Bar 3, Beat 2.95091213924213, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f6 + i2
+@ Bar 3, Beat 2.96091213924213, Type: TagAction: Run tag 103
+
+=== Tag 103 (2 events) ===
+@ Bar 3, Beat 3.468012003077527, Type: CallCustomMethod: CallCustomMethod: f6 = i3 % 65537
+@ Bar 3, Beat 3.478012003077527, Type: TagAction: Run tag 104
+
+=== Tag 104 (2 events) ===
+@ Bar 3, Beat 2.6767678466173637, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.6867678466173635, Type: TagAction: Run tag 105
+
+=== Tag 105 (2 events) ===
+@ Bar 3, Beat 3.323222362023083, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 3.3332223620230828, Type: TagAction: Run tag 106
+
+=== Tag 107 (3 events) ===
+@ Bar 3, Beat 4.618748881916783, Type: CallCustomMethod: CallCustomMethod: invisibleHeart = 1
+@ Bar 3, Beat 4.628748881916783, Type: TagAction: Run tag 108 (if invisibleHeart)
+@ Bar 3, Beat 4.638748881916783, Type: TagAction: Run tag 107 (if !invisibleHeart)
+
+=== Tag 106 (2 events) ===
+@ Bar 3, Beat 4.620959813449071, Type: CallCustomMethod: CallCustomMethod: invisibleHeart = 0
+@ Bar 3, Beat 4.630959813449071, Type: TagAction: Run tag 107
+
+=== Tag 108 (2 events) ===
+@ Bar 3, Beat 2.9873255226898383, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f7 + i2
+@ Bar 3, Beat 2.997325522689838, Type: TagAction: Run tag 109
+
+=== Tag 109 (2 events) ===
+@ Bar 3, Beat 1.5549519226091797, Type: CallCustomMethod: CallCustomMethod: f7 = i3 % 65537
+@ Bar 3, Beat 1.5649519226091797, Type: TagAction: Run tag 110
+
+=== Tag 110 (2 events) ===
+@ Bar 3, Beat 1.3606248662262492, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.3706248662262492, Type: TagAction: Run tag 111
+
+=== Tag 111 (2 events) ===
+@ Bar 3, Beat 4.2047759729727066, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 4.214775972972706, Type: TagAction: Run tag 112
+
+=== Tag 113 (3 events) ===
+@ Bar 3, Beat 2.2951749696617325, Type: CallCustomMethod: CallCustomMethod: invisibleChars = 1
+@ Bar 3, Beat 2.3051749696617323, Type: TagAction: Run tag 114 (if invisibleChars)
+@ Bar 3, Beat 2.315174969661732, Type: TagAction: Run tag 113 (if !invisibleChars)
+
+=== Tag 112 (2 events) ===
+@ Bar 3, Beat 3.8997676671789585, Type: CallCustomMethod: CallCustomMethod: invisibleChars = 0
+@ Bar 3, Beat 3.9097676671789583, Type: TagAction: Run tag 113
+
+=== Tag 114 (2 events) ===
+@ Bar 3, Beat 1.5954080696699982, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f8 + i2
+@ Bar 3, Beat 1.6054080696699982, Type: TagAction: Run tag 115
+
+=== Tag 115 (2 events) ===
+@ Bar 3, Beat 1.1081544355585429, Type: CallCustomMethod: CallCustomMethod: f8 = i3 % 65537
+@ Bar 3, Beat 1.1181544355585429, Type: TagAction: Run tag 116
+
+=== Tag 116 (2 events) ===
+@ Bar 3, Beat 1.434319078087135, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 1.444319078087135, Type: TagAction: Run tag 117
+
+=== Tag 117 (2 events) ===
+@ Bar 3, Beat 4.056868571649783, Type: TagAction: Run tag affine_prepare
+@ Bar 3, Beat 4.066868571649783, Type: TagAction: Run tag 118
+
+=== Tag 119 (3 events) ===
+@ Bar 3, Beat 1.8755902013066785, Type: CallCustomMethod: CallCustomMethod: rotateShake = 1
+@ Bar 3, Beat 1.8855902013066785, Type: TagAction: Run tag 120 (if rotateShake)
+@ Bar 3, Beat 1.8955902013066785, Type: TagAction: Run tag 119 (if !rotateShake)
+
+=== Tag 118 (2 events) ===
+@ Bar 3, Beat 3.5739300757690065, Type: CallCustomMethod: CallCustomMethod: rotateShake = 0
+@ Bar 3, Beat 3.5839300757690062, Type: TagAction: Run tag 119
+
+=== Tag 120 (2 events) ===
+@ Bar 3, Beat 1.530732176620488, Type: CallCustomMethod: CallCustomMethod: i3 = i1 * f9 + i2
+@ Bar 3, Beat 1.540732176620488, Type: TagAction: Run tag 121
+
+=== Tag 121 (2 events) ===
+@ Bar 3, Beat 2.413686809341611, Type: CallCustomMethod: CallCustomMethod: f9 = i3 % 65537
+@ Bar 3, Beat 2.4236868093416106, Type: TagAction: Run tag 122
+
+=== Tag 122 (2 events) ===
+@ Bar 3, Beat 2.5071546325185334, Type: CallCustomMethod: CallCustomMethod: i3 = 1
+@ Bar 3, Beat 2.517154632518533, Type: TagAction: Run tag 123
+
+=== Tag 123 (2 events) ===
+@ Bar 3, Beat 2.1811016168094666, Type: TagAction: Run tag shift
+@ Bar 3, Beat 2.1911016168094664, Type: TagAction: Run tag 124
+
+=== Tag 125 (3 events) ===
+@ Bar 3, Beat 2.5330930705674586, Type: CallCustomMethod: CallCustomMethod: smoothShake = 1
+@ Bar 3, Beat 2.5430930705674584, Type: TagAction: Run tag 126 (if smoothShake)
+@ Bar 3, Beat 2.553093070567458, Type: TagAction: Run tag 125 (if !smoothShake)
+
+=== Tag 124 (2 events) ===
+@ Bar 3, Beat 4.741875069041968, Type: CallCustomMethod: CallCustomMethod: smoothShake = 0
+@ Bar 3, Beat 4.751875069041968, Type: TagAction: Run tag 125
+
+=== Tag 126 (2 events) ===
+@ Bar 3, Beat 1.3985959938798218, Type: CallCustomMethod: CallCustomMethod: i0 = 1
+@ Bar 3, Beat 1.4085959938798218, Type: TagAction: Run tag 127
+
+=== Tag main (2 events) ===
+@ Bar 3, Beat 3.731459802509916, Type: CallCustomMethod: CallCustomMethod: i0 = 1
+@ Bar 3, Beat 3.7414598025099157, Type: TagAction: Run tag 128
+
+=== Tag 128 (2 events) ===
+@ Bar 3, Beat 2.38286243559296, Type: TagAction: Run tag input
+@ Bar 3, Beat 2.39286243559296, Type: TagAction: Run tag 129
+
+=== Tag 130 (3 events) ===
+@ Bar 3, Beat 4.3824797649900304, Type: CallCustomMethod: CallCustomMethod: bombBeats = 1
+@ Bar 3, Beat 4.39247976499003, Type: TagAction: Run tag 131 (if bombBeats)
+@ Bar 3, Beat 4.40247976499003, Type: TagAction: Run tag 130 (if !bombBeats)
+
+=== Tag 129 (2 events) ===
+@ Bar 3, Beat 3.1586792480491064, Type: CallCustomMethod: CallCustomMethod: bombBeats = 0
+@ Bar 3, Beat 3.168679248049106, Type: TagAction: Run tag 130
+
+=== Tag 131 (2 events) ===
+@ Bar 3, Beat 1.8094498725524466, Type: CallCustomMethod: CallCustomMethod: i1 = 42591
+@ Bar 3, Beat 1.8194498725524466, Type: TagAction: Run tag 132
+
+=== Tag 132 (2 events) ===
+@ Bar 3, Beat 2.2057481250405573, Type: CallCustomMethod: CallCustomMethod: i2 = i1 * 27342 % 65537
+@ Bar 3, Beat 2.215748125040557, Type: TagAction: Run tag 133
+
+=== Tag 133 (2 events) ===
+@ Bar 3, Beat 1.7213328636069902, Type: TagAction: Run tag round_loop
+@ Bar 3, Beat 1.7313328636069902, Type: TagAction: Run tag 134
+
+=== Tag 135 (3 events) ===
+@ Bar 3, Beat 4.1859216021537655, Type: CallCustomMethod: CallCustomMethod: activeDialoguesImmediately = 1
+@ Bar 3, Beat 4.195921602153765, Type: TagAction: Run tag 136 (if activeDialoguesImmediately)
+@ Bar 3, Beat 4.205921602153765, Type: TagAction: Run tag 135 (if !activeDialoguesImmediately)
+
+=== Tag 134 (2 events) ===
+@ Bar 3, Beat 2.9477064378729088, Type: CallCustomMethod: CallCustomMethod: activeDialoguesImmediately = 0
+@ Bar 3, Beat 2.9577064378729085, Type: TagAction: Run tag 135
+
+=== Tag 136 (2 events) ===
+@ Bar 3, Beat 4.83374201558014, Type: TagAction: Run tag check
+@ Bar 3, Beat 4.84374201558014, Type: TagAction: Run tag 137
+
+=== Tag round_loop (2 events) ===
+@ Bar 3, Beat 2.9620372764481075, Type: CallCustomMethod: CallCustomMethod: i0 = 0
+@ Bar 3, Beat 2.9720372764481073, Type: TagAction: Run tag 138
+
+=== Tag 138 (2 events) ===
+@ Bar 3, Beat 3.592377906694635, Type: TextExplosion
+@ Bar 3, Beat 3.6023779066946346, Type: TagAction: Run tag 139
+
+=== Tag 139 (2 events) ===
+@ Bar 3, Beat 1.752061052847436, Type: FloatingText: FloatingText: 'round {numMistakes + 1}'
+@ Bar 3, Beat 1.762061052847436, Type: TagAction: Run tag 140
+
+=== Tag 140 (2 events) ===
+@ Bar 3, Beat 4.473134512910668, Type: TagAction: Run tag round
+@ Bar 3, Beat 4.4831345129106674, Type: TagAction: Run tag 141
+
+=== Tag 142 (3 events) ===
+@ Bar 3, Beat 2.834561844092942, Type: CallCustomMethod: CallCustomMethod: activeDialogues = 1
+@ Bar 3, Beat 2.844561844092942, Type: TagAction: Run tag 143 (if activeDialogues)
+@ Bar 3, Beat 2.8545618440929417, Type: TagAction: Run tag 142 (if !activeDialogues)
+
+=== Tag 141 (2 events) ===
+@ Bar 3, Beat 4.648636723980655, Type: CallCustomMethod: CallCustomMethod: activeDialogues = 0
+@ Bar 3, Beat 4.6586367239806545, Type: TagAction: Run tag 142
+
+=== Tag 143 (2 events) ===
+@ Bar 3, Beat 2.2516613289206475, Type: CallCustomMethod: CallCustomMethod: MistakeSilent()
+@ Bar 3, Beat 2.2616613289206473, Type: TagAction: Run tag 144
+
+=== Tag 144 (4 events) ===
+@ Bar 3, Beat 1.2977996974180384, Type: TagAction: Enable tag 146
+@ Bar 3, Beat 1.3077996974180384, Type: TagAction: Disable tag 146 (if numMistakes < 16)
+@ Bar 3, Beat 1.3177996974180384, Type: TagAction: Run tag 145 (if numMistakes < 16)
+@ Bar 3, Beat 1.3277996974180384, Type: TagAction: Run tag 146
+
+=== Tag 145 (2 events) ===
+@ Bar 3, Beat 4.432784843647761, Type: TagAction: Run tag round_loop
+@ Bar 3, Beat 4.442784843647761, Type: TagAction: Run tag 147
+
+=== Tag 147 (1 events) ===
+@ Bar 3, Beat 4.332776795172627, Type: TagAction: Run tag 148
+
+=== Tag 146 (1 events) ===
+@ Bar 3, Beat 3.278315838140781, Type: TagAction: Run tag 148
+
+=== Tag 148 (1 events) ===
+@ Bar 3, Beat 2.9705881594141146, Type: TagAction: Run tag 149
+
+=== Tag input (2 events) ===
+@ Bar 3, Beat 2.2394984599462653, Type: CallCustomMethod: CallCustomMethod: i4 = 30583
+@ Bar 3, Beat 2.249498459946265, Type: TagAction: Run tag 150
+
+=== Tag 150 (2 events) ===
+@ Bar 3, Beat 2.4167528162748146, Type: CallCustomMethod: CallCustomMethod: i5 = 26235
+@ Bar 3, Beat 2.4267528162748144, Type: TagAction: Run tag 151
+
+=== Tag 151 (2 events) ===
+@ Bar 3, Beat 3.9195280401614467, Type: CallCustomMethod: CallCustomMethod: i6 = 26209
+@ Bar 3, Beat 3.9295280401614465, Type: TagAction: Run tag 152
+
+=== Tag 152 (2 events) ===
+@ Bar 3, Beat 2.8560110789999533, Type: CallCustomMethod: CallCustomMethod: i7 = 27493
+@ Bar 3, Beat 2.866011078999953, Type: TagAction: Run tag 153
+
+=== Tag 153 (2 events) ===
+@ Bar 3, Beat 1.9384434315771755, Type: CallCustomMethod: CallCustomMethod: i8 = 26209
+@ Bar 3, Beat 1.9484434315771755, Type: TagAction: Run tag 154
+
+=== Tag 154 (2 events) ===
+@ Bar 3, Beat 2.3931390097360943, Type: CallCustomMethod: CallCustomMethod: i9 = 27493
+@ Bar 3, Beat 2.403139009736094, Type: TagAction: Run tag 155
+
+=== Tag 155 (2 events) ===
+@ Bar 3, Beat 3.33491251859432, Type: CallCustomMethod: CallCustomMethod: f0 = 26209
+@ Bar 3, Beat 3.34491251859432, Type: TagAction: Run tag 156
+
+=== Tag 156 (2 events) ===
+@ Bar 3, Beat 1.1322059529813375, Type: CallCustomMethod: CallCustomMethod: f1 = 27493
+@ Bar 3, Beat 1.1422059529813375, Type: TagAction: Run tag 157
+
+=== Tag 157 (2 events) ===
+@ Bar 3, Beat 3.349676484939098, Type: CallCustomMethod: CallCustomMethod: f2 = 26209
+@ Bar 3, Beat 3.3596764849390977, Type: TagAction: Run tag 158
+
+=== Tag 158 (2 events) ===
+@ Bar 3, Beat 2.6410460395398, Type: CallCustomMethod: CallCustomMethod: f3 = 27493
+@ Bar 3, Beat 2.6510460395398, Type: TagAction: Run tag 159
+
+=== Tag 159 (2 events) ===
+@ Bar 3, Beat 3.537682794558627, Type: CallCustomMethod: CallCustomMethod: f4 = 26209
+@ Bar 3, Beat 3.547682794558627, Type: TagAction: Run tag 160
+
+=== Tag 160 (2 events) ===
+@ Bar 3, Beat 2.284454505365259, Type: CallCustomMethod: CallCustomMethod: f5 = 27493
+@ Bar 3, Beat 2.294454505365259, Type: TagAction: Run tag 161
+
+=== Tag 161 (2 events) ===
+@ Bar 3, Beat 3.7111148572241723, Type: CallCustomMethod: CallCustomMethod: f6 = 26209
+@ Bar 3, Beat 3.721114857224172, Type: TagAction: Run tag 162
+
+=== Tag 162 (2 events) ===
+@ Bar 3, Beat 4.489123759627401, Type: CallCustomMethod: CallCustomMethod: f7 = 27493
+@ Bar 3, Beat 4.499123759627401, Type: TagAction: Run tag 163
+
+=== Tag 163 (2 events) ===
+@ Bar 3, Beat 3.150649753950874, Type: CallCustomMethod: CallCustomMethod: f8 = 26209
+@ Bar 3, Beat 3.160649753950874, Type: TagAction: Run tag 164
+
+=== Tag 164 (2 events) ===
+@ Bar 3, Beat 2.6804913049801664, Type: CallCustomMethod: CallCustomMethod: f9 = 27517
+@ Bar 3, Beat 2.690491304980166, Type: TagAction: Run tag 165
+
+=== Tag 165 (2 events) ===
+@ Bar 3, Beat 1.0080609833116796, Type: CallCustomMethod: CallCustomMethod: i0 = 0
+@ Bar 3, Beat 1.0180609833116796, Type: TagAction: Run tag 166
+
+=== Tag check (4 events) ===
+@ Bar 3, Beat 1.445431356793804, Type: TagAction: Enable tag 168
+@ Bar 3, Beat 1.455431356793804, Type: TagAction: Disable tag 168 (if i4 != 33601)
+@ Bar 3, Beat 1.465431356793804, Type: TagAction: Run tag 167 (if i4 != 33601)
+@ Bar 3, Beat 1.475431356793804, Type: TagAction: Run tag 168
+
+=== Tag 167 (2 events) ===
+@ Bar 3, Beat 1.5036227840536756, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 1.5136227840536756, Type: TagAction: Run tag 169
+
+=== Tag 168 (1 events) ===
+@ Bar 3, Beat 3.437909797177685, Type: TagAction: Run tag 170
+
+=== Tag 170 (1 events) ===
+@ Bar 3, Beat 1.609914431006906, Type: TagAction: Run tag 171
+
+=== Tag 171 (4 events) ===
+@ Bar 3, Beat 1.0686513136873792, Type: TagAction: Enable tag 173
+@ Bar 3, Beat 1.0786513136873792, Type: TagAction: Disable tag 173 (if i5 != 10760)
+@ Bar 3, Beat 1.0886513136873792, Type: TagAction: Run tag 172 (if i5 != 10760)
+@ Bar 3, Beat 1.0986513136873792, Type: TagAction: Run tag 173
+
+=== Tag 172 (2 events) ===
+@ Bar 3, Beat 2.6759321370487337, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 2.6859321370487335, Type: TagAction: Run tag 174
+
+=== Tag 173 (1 events) ===
+@ Bar 3, Beat 2.3693887578906434, Type: TagAction: Run tag 175
+
+=== Tag 175 (1 events) ===
+@ Bar 3, Beat 1.6723534203837556, Type: TagAction: Run tag 176
+
+=== Tag 176 (4 events) ===
+@ Bar 3, Beat 3.762542277460152, Type: TagAction: Enable tag 178
+@ Bar 3, Beat 3.772542277460152, Type: TagAction: Disable tag 178 (if i6 != 62873)
+@ Bar 3, Beat 3.7825422774601516, Type: TagAction: Run tag 177 (if i6 != 62873)
+@ Bar 3, Beat 3.7925422774601514, Type: TagAction: Run tag 178
+
+=== Tag 177 (2 events) ===
+@ Bar 3, Beat 2.969800875184405, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 2.979800875184405, Type: TagAction: Run tag 179
+
+=== Tag 178 (1 events) ===
+@ Bar 3, Beat 1.576435024029598, Type: TagAction: Run tag 180
+
+=== Tag 180 (1 events) ===
+@ Bar 3, Beat 4.62351038026821, Type: TagAction: Run tag 181
+
+=== Tag 181 (4 events) ===
+@ Bar 3, Beat 1.5957058384788312, Type: TagAction: Enable tag 183
+@ Bar 3, Beat 1.6057058384788312, Type: TagAction: Disable tag 183 (if i7 != 63911)
+@ Bar 3, Beat 1.6157058384788312, Type: TagAction: Run tag 182 (if i7 != 63911)
+@ Bar 3, Beat 1.6257058384788312, Type: TagAction: Run tag 183
+
+=== Tag 182 (2 events) ===
+@ Bar 3, Beat 1.4788379337622357, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 1.4888379337622357, Type: TagAction: Run tag 184
+
+=== Tag 183 (1 events) ===
+@ Bar 3, Beat 1.4398412103944125, Type: TagAction: Run tag 185
+
+=== Tag 185 (1 events) ===
+@ Bar 3, Beat 1.656657631771628, Type: TagAction: Run tag 186
+
+=== Tag 186 (4 events) ===
+@ Bar 3, Beat 4.133668779704494, Type: TagAction: Enable tag 188
+@ Bar 3, Beat 4.143668779704494, Type: TagAction: Disable tag 188 (if i8 != 39745)
+@ Bar 3, Beat 4.1536687797044936, Type: TagAction: Run tag 187 (if i8 != 39745)
+@ Bar 3, Beat 4.163668779704493, Type: TagAction: Run tag 188
+
+=== Tag 187 (2 events) ===
+@ Bar 3, Beat 1.1574757499258854, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 1.1674757499258854, Type: TagAction: Run tag 189
+
+=== Tag 188 (1 events) ===
+@ Bar 3, Beat 2.969728894981658, Type: TagAction: Run tag 190
+
+=== Tag 190 (1 events) ===
+@ Bar 3, Beat 2.430432596916921, Type: TagAction: Run tag 191
+
+=== Tag 191 (4 events) ===
+@ Bar 3, Beat 2.4931900364136537, Type: TagAction: Enable tag 193
+@ Bar 3, Beat 2.5031900364136535, Type: TagAction: Disable tag 193 (if i9 != 62471)
+@ Bar 3, Beat 2.5131900364136532, Type: TagAction: Run tag 192 (if i9 != 62471)
+@ Bar 3, Beat 2.523190036413653, Type: TagAction: Run tag 193
+
+=== Tag 192 (2 events) ===
+@ Bar 3, Beat 3.888102505127913, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 3.8981025051279126, Type: TagAction: Run tag 194
+
+=== Tag 193 (1 events) ===
+@ Bar 3, Beat 1.3666217678702588, Type: TagAction: Run tag 195
+
+=== Tag 195 (1 events) ===
+@ Bar 3, Beat 3.436931655282709, Type: TagAction: Run tag 196
+
+=== Tag 196 (4 events) ===
+@ Bar 3, Beat 3.3842334914639016, Type: TagAction: Enable tag 198
+@ Bar 3, Beat 3.3942334914639014, Type: TagAction: Disable tag 198 (if f0 != 65158)
+@ Bar 3, Beat 3.404233491463901, Type: TagAction: Run tag 197 (if f0 != 65158)
+@ Bar 3, Beat 3.414233491463901, Type: TagAction: Run tag 198
+
+=== Tag 197 (2 events) ===
+@ Bar 3, Beat 1.8920301328252433, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 1.9020301328252434, Type: TagAction: Run tag 199
+
+=== Tag 198 (1 events) ===
+@ Bar 3, Beat 2.286759516958957, Type: TagAction: Run tag 200
+
+=== Tag 200 (1 events) ===
+@ Bar 3, Beat 3.8148786683323475, Type: TagAction: Run tag 201
+
+=== Tag 201 (4 events) ===
+@ Bar 3, Beat 1.0375725745305064, Type: TagAction: Enable tag 203
+@ Bar 3, Beat 1.0475725745305065, Type: TagAction: Disable tag 203 (if f1 != 29652)
+@ Bar 3, Beat 1.0575725745305065, Type: TagAction: Run tag 202 (if f1 != 29652)
+@ Bar 3, Beat 1.0675725745305065, Type: TagAction: Run tag 203
+
+=== Tag 202 (2 events) ===
+@ Bar 3, Beat 1.1423284310042123, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 1.1523284310042123, Type: TagAction: Run tag 204
+
+=== Tag 203 (1 events) ===
+@ Bar 3, Beat 2.239970388511782, Type: TagAction: Run tag 205
+
+=== Tag 205 (1 events) ===
+@ Bar 3, Beat 3.5138022709190473, Type: TagAction: Run tag 206
+
+=== Tag 206 (4 events) ===
+@ Bar 3, Beat 4.7390687451912505, Type: TagAction: Enable tag 208
+@ Bar 3, Beat 4.74906874519125, Type: TagAction: Disable tag 208 (if f2 != 39777)
+@ Bar 3, Beat 4.75906874519125, Type: TagAction: Run tag 207 (if f2 != 39777)
+@ Bar 3, Beat 4.76906874519125, Type: TagAction: Run tag 208
+
+=== Tag 207 (2 events) ===
+@ Bar 3, Beat 4.162937705684438, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 4.172937705684438, Type: TagAction: Run tag 209
+
+=== Tag 208 (1 events) ===
+@ Bar 3, Beat 3.1096377319862096, Type: TagAction: Run tag 210
+
+=== Tag 210 (1 events) ===
+@ Bar 3, Beat 4.6966006804338685, Type: TagAction: Run tag 211
+
+=== Tag 211 (4 events) ===
+@ Bar 3, Beat 2.5677450456775848, Type: TagAction: Enable tag 213
+@ Bar 3, Beat 2.5777450456775846, Type: TagAction: Disable tag 213 (if f3 != 12164)
+@ Bar 3, Beat 2.5877450456775843, Type: TagAction: Run tag 212 (if f3 != 12164)
+@ Bar 3, Beat 2.597745045677584, Type: TagAction: Run tag 213
+
+=== Tag 212 (2 events) ===
+@ Bar 3, Beat 4.869865539133048, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 4.879865539133048, Type: TagAction: Run tag 214
+
+=== Tag 213 (1 events) ===
+@ Bar 3, Beat 2.8304070161962858, Type: TagAction: Run tag 215
+
+=== Tag 215 (1 events) ===
+@ Bar 3, Beat 2.355747296041562, Type: TagAction: Run tag 216
+
+=== Tag 216 (4 events) ===
+@ Bar 3, Beat 4.240199985278804, Type: TagAction: Enable tag 218
+@ Bar 3, Beat 4.250199985278804, Type: TagAction: Disable tag 218 (if f4 != 20416)
+@ Bar 3, Beat 4.2601999852788035, Type: TagAction: Run tag 217 (if f4 != 20416)
+@ Bar 3, Beat 4.270199985278803, Type: TagAction: Run tag 218
+
+=== Tag 217 (2 events) ===
+@ Bar 3, Beat 3.421879805000515, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 3.4318798050005146, Type: TagAction: Run tag 219
+
+=== Tag 218 (1 events) ===
+@ Bar 3, Beat 1.3433616297928723, Type: TagAction: Run tag 220
+
+=== Tag 220 (1 events) ===
+@ Bar 3, Beat 2.302182300429583, Type: TagAction: Run tag 221
+
+=== Tag 221 (4 events) ===
+@ Bar 3, Beat 1.8761377497100913, Type: TagAction: Enable tag 223
+@ Bar 3, Beat 1.8861377497100913, Type: TagAction: Disable tag 223 (if f5 != 33945)
+@ Bar 3, Beat 1.8961377497100913, Type: TagAction: Run tag 222 (if f5 != 33945)
+@ Bar 3, Beat 1.9061377497100913, Type: TagAction: Run tag 223
+
+=== Tag 222 (2 events) ===
+@ Bar 3, Beat 3.8388663641757814, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 3.848866364175781, Type: TagAction: Run tag 224
+
+=== Tag 223 (1 events) ===
+@ Bar 3, Beat 3.002608933967691, Type: TagAction: Run tag 225
+
+=== Tag 225 (1 events) ===
+@ Bar 3, Beat 4.682075658798407, Type: TagAction: Run tag 226
+
+=== Tag 226 (4 events) ===
+@ Bar 3, Beat 4.9363993391536924, Type: TagAction: Enable tag 228
+@ Bar 3, Beat 4.946399339153692, Type: TagAction: Disable tag 228 (if f6 != 18465)
+@ Bar 3, Beat 4.956399339153692, Type: TagAction: Run tag 227 (if f6 != 18465)
+@ Bar 3, Beat 4.966399339153692, Type: TagAction: Run tag 228
+
+=== Tag 227 (2 events) ===
+@ Bar 3, Beat 2.8378623403958834, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 2.847862340395883, Type: TagAction: Run tag 229
+
+=== Tag 228 (1 events) ===
+@ Bar 3, Beat 1.973942765541272, Type: TagAction: Run tag 230
+
+=== Tag 230 (1 events) ===
+@ Bar 3, Beat 4.173796939348321, Type: TagAction: Run tag 231
+
+=== Tag 231 (4 events) ===
+@ Bar 3, Beat 3.0546465706026265, Type: TagAction: Enable tag 233
+@ Bar 3, Beat 3.0646465706026262, Type: TagAction: Disable tag 233 (if f7 != 17245)
+@ Bar 3, Beat 3.074646570602626, Type: TagAction: Run tag 232 (if f7 != 17245)
+@ Bar 3, Beat 3.084646570602626, Type: TagAction: Run tag 233
+
+=== Tag 232 (2 events) ===
+@ Bar 3, Beat 2.376059151891192, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 2.386059151891192, Type: TagAction: Run tag 234
+
+=== Tag 233 (1 events) ===
+@ Bar 3, Beat 4.184864057281785, Type: TagAction: Run tag 235
+
+=== Tag 235 (1 events) ===
+@ Bar 3, Beat 3.9814916398276017, Type: TagAction: Run tag 236
+
+=== Tag 236 (4 events) ===
+@ Bar 3, Beat 2.054342974599658, Type: TagAction: Enable tag 238
+@ Bar 3, Beat 2.0643429745996578, Type: TagAction: Disable tag 238 (if f8 != 13049)
+@ Bar 3, Beat 2.0743429745996576, Type: TagAction: Run tag 237 (if f8 != 13049)
+@ Bar 3, Beat 2.0843429745996573, Type: TagAction: Run tag 238
+
+=== Tag 237 (2 events) ===
+@ Bar 3, Beat 4.844551408981964, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 4.854551408981964, Type: TagAction: Run tag 239
+
+=== Tag 238 (1 events) ===
+@ Bar 3, Beat 2.523084147885317, Type: TagAction: Run tag 240
+
+=== Tag 240 (1 events) ===
+@ Bar 3, Beat 4.405130310300704, Type: TagAction: Run tag 241
+
+=== Tag 241 (4 events) ===
+@ Bar 3, Beat 1.790537313205618, Type: TagAction: Enable tag 243
+@ Bar 3, Beat 1.800537313205618, Type: TagAction: Disable tag 243 (if f9 != 40799)
+@ Bar 3, Beat 1.810537313205618, Type: TagAction: Run tag 242 (if f9 != 40799)
+@ Bar 3, Beat 1.820537313205618, Type: TagAction: Run tag 243
+
+=== Tag 242 (2 events) ===
+@ Bar 3, Beat 4.919035894705291, Type: FloatingText: FloatingText: 'Incorrect'
+@ Bar 3, Beat 4.929035894705291, Type: TagAction: Run tag 244
+
+=== Tag 243 (1 events) ===
+@ Bar 3, Beat 4.781276398950698, Type: TagAction: Run tag 245
+
+=== Tag 245 (1 events) ===
+@ Bar 3, Beat 3.3370280480482726, Type: TagAction: Run tag 246
+
+=== Tag 246 (2 events) ===
+@ Bar 3, Beat 4.766185309365937, Type: FloatingText: FloatingText: 'Correct flag!'
+@ Bar 3, Beat 4.776185309365937, Type: TagAction: Run tag 247
+
+=== Tag 247 (2 events) ===
+@ Bar 3, Beat 1.5691425072114336, Type: CallCustomMethod: CallCustomMethod: i0 = 1337
+@ Bar 3, Beat 1.5791425072114336, Type: TagAction: Run tag 248
+
+=== Tag dependency map (TagA -> TagB if TagA runs TagB) ===
+None -> main
+affine_prepare -> 0
+0 -> 1
+1 -> 2
+2 -> 3 [if i1 > 32766]
+2 -> 4
+3 -> 5
+5 -> 6
+4 -> 6
+6 -> 7
+7 -> 8
+shift -> 9
+9 -> 10
+10 -> 11
+11 -> 12
+12 -> 13
+13 -> 14
+14 -> 15
+15 -> 16
+16 -> 17
+17 -> 18
+18 -> 19
+19 -> 20
+20 -> 21
+21 -> 22
+22 -> 23
+23 -> 24
+24 -> 25
+25 -> 26
+round -> 27
+27 -> affine_prepare
+27 -> 28
+29 -> 30 [if rowReflectionsJumping]
+29 -> 29 [if !rowReflectionsJumping]
+28 -> 29
+30 -> 31
+31 -> 32
+32 -> 33
+33 -> affine_prepare
+33 -> 34
+35 -> 36 [if rowReflections]
+35 -> 35 [if !rowReflections]
+34 -> 35
+36 -> 37
+37 -> 38
+38 -> 39
+39 -> affine_prepare
+39 -> 40
+41 -> 42 [if subdivisions]
+41 -> 41 [if !subdivisions]
+40 -> 41
+42 -> 43
+43 -> 44
+44 -> 45
+45 -> affine_prepare
+45 -> 46
+47 -> 48 [if charsOnlyOnStart]
+47 -> 47 [if !charsOnlyOnStart]
+46 -> 47
+48 -> 49
+49 -> 50
+50 -> 51
+51 -> affine_prepare
+51 -> 52
+53 -> 54 [if noRowAnimsOnStart]
+53 -> 53 [if !noRowAnimsOnStart]
+52 -> 53
+54 -> 55
+55 -> 56
+56 -> 57
+57 -> affine_prepare
+57 -> 58
+59 -> 60 [if noHands]
+59 -> 59 [if !noHands]
+58 -> 59
+60 -> 61
+61 -> 62
+62 -> 63
+63 -> affine_prepare
+63 -> 64
+65 -> 66 [if hideHandsOnStart]
+65 -> 65 [if !hideHandsOnStart]
+64 -> 65
+66 -> 67
+67 -> 68
+68 -> 69
+69 -> affine_prepare
+69 -> 70
+71 -> 72 [if noOneshotShadows]
+71 -> 71 [if !noOneshotShadows]
+70 -> 71
+72 -> 73
+73 -> 74
+74 -> 75
+75 -> affine_prepare
+75 -> 76
+77 -> 78 [if noBananaBeats]
+77 -> 77 [if !noBananaBeats]
+76 -> 77
+78 -> 79
+79 -> 80
+80 -> 81
+81 -> affine_prepare
+81 -> 82
+83 -> 84 [if multiwindow]
+83 -> 83 [if !multiwindow]
+82 -> 83
+84 -> 85
+85 -> 86
+86 -> 87
+87 -> affine_prepare
+87 -> 88
+89 -> 90 [if dogMode]
+89 -> 89 [if !dogMode]
+88 -> 89
+90 -> 91
+91 -> 92
+92 -> 93
+93 -> affine_prepare
+93 -> 94
+95 -> 96 [if instantRowChange]
+95 -> 95 [if !instantRowChange]
+94 -> 95
+96 -> 97
+97 -> 98
+98 -> 99
+99 -> affine_prepare
+99 -> 100
+101 -> 102 [if disableRowChangeWarningFlashes]
+101 -> 101 [if !disableRowChangeWarningFlashes]
+100 -> 101
+102 -> 103
+103 -> 104
+104 -> 105
+105 -> affine_prepare
+105 -> 106
+107 -> 108 [if invisibleHeart]
+107 -> 107 [if !invisibleHeart]
+106 -> 107
+108 -> 109
+109 -> 110
+110 -> 111
+111 -> affine_prepare
+111 -> 112
+113 -> 114 [if invisibleChars]
+113 -> 113 [if !invisibleChars]
+112 -> 113
+114 -> 115
+115 -> 116
+116 -> 117
+117 -> affine_prepare
+117 -> 118
+119 -> 120 [if rotateShake]
+119 -> 119 [if !rotateShake]
+118 -> 119
+120 -> 121
+121 -> 122
+122 -> 123
+123 -> shift
+123 -> 124
+125 -> 126 [if smoothShake]
+125 -> 125 [if !smoothShake]
+124 -> 125
+126 -> 127
+main -> 128
+128 -> input
+128 -> 129
+130 -> 131 [if bombBeats]
+130 -> 130 [if !bombBeats]
+129 -> 130
+131 -> 132
+132 -> 133
+133 -> round_loop
+133 -> 134
+135 -> 136 [if activeDialoguesImmediately]
+135 -> 135 [if !activeDialoguesImmediately]
+134 -> 135
+136 -> check
+136 -> 137
+round_loop -> 138
+138 -> 139
+139 -> 140
+140 -> round
+140 -> 141
+142 -> 143 [if activeDialogues]
+142 -> 142 [if !activeDialogues]
+141 -> 142
+143 -> 144
+144 -> 145 [if numMistakes < 16]
+144 -> 146
+145 -> round_loop
+145 -> 147
+147 -> 148
+146 -> 148
+148 -> 149
+input -> 150
+150 -> 151
+151 -> 152
+152 -> 153
+153 -> 154
+154 -> 155
+155 -> 156
+156 -> 157
+157 -> 158
+158 -> 159
+159 -> 160
+160 -> 161
+161 -> 162
+162 -> 163
+163 -> 164
+164 -> 165
+165 -> 166
+check -> 167 [if i4 != 33601]
+check -> 168
+167 -> 169
+168 -> 170
+170 -> 171
+171 -> 172 [if i5 != 10760]
+171 -> 173
+172 -> 174
+173 -> 175
+175 -> 176
+176 -> 177 [if i6 != 62873]
+176 -> 178
+177 -> 179
+178 -> 180
+180 -> 181
+181 -> 182 [if i7 != 63911]
+181 -> 183
+182 -> 184
+183 -> 185
+185 -> 186
+186 -> 187 [if i8 != 39745]
+186 -> 188
+187 -> 189
+188 -> 190
+190 -> 191
+191 -> 192 [if i9 != 62471]
+191 -> 193
+192 -> 194
+193 -> 195
+195 -> 196
+196 -> 197 [if f0 != 65158]
+196 -> 198
+197 -> 199
+198 -> 200
+200 -> 201
+201 -> 202 [if f1 != 29652]
+201 -> 203
+202 -> 204
+203 -> 205
+205 -> 206
+206 -> 207 [if f2 != 39777]
+206 -> 208
+207 -> 209
+208 -> 210
+210 -> 211
+211 -> 212 [if f3 != 12164]
+211 -> 213
+212 -> 214
+213 -> 215
+215 -> 216
+216 -> 217 [if f4 != 20416]
+216 -> 218
+217 -> 219
+218 -> 220
+220 -> 221
+221 -> 222 [if f5 != 33945]
+221 -> 223
+222 -> 224
+223 -> 225
+225 -> 226
+226 -> 227 [if f6 != 18465]
+226 -> 228
+227 -> 229
+228 -> 230
+230 -> 231
+231 -> 232 [if f7 != 17245]
+231 -> 233
+232 -> 234
+233 -> 235
+235 -> 236
+236 -> 237 [if f8 != 13049]
+236 -> 238
+237 -> 239
+238 -> 240
+240 -> 241
+241 -> 242 [if f9 != 40799]
+241 -> 243
+242 -> 244
+243 -> 245
+245 -> 246
+246 -> 247
+247 -> 248
