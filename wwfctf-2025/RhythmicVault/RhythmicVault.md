@@ -112,7 +112,7 @@ i2 = i3 * 17627 % 65537
 if i1 > 32766 -> i1 = i1/3
 ```
 
-Each of the flag variable(i4-i9 and f0-f9) contains two bytes of the flag converted to integers(this is where the flag is stored in big endian words clue comes in). The flag currently stored comes out to be `wwf{fakefakefakefakefakefakefak}`.
+Each of the flag variable(i4-i9 and f0-f9) contains two bytes of the flag converted to integers(this is where the initial clue comes in to play). The flag currently stored comes out to be `wwf{fakefakefakefakefakefakefak}`.
 
 Now with this our goal finally becomes clear, we need to find what the flag variables need to be initialized with such that it passes all the final checks.
 
@@ -189,7 +189,7 @@ But even with the fake flag values, the simulation was getting the same final i4
 
 The reason this is important is because it meant that the final output of one variable is independent of the initial values in the other variables and it only depends on two factors: initial value in that variable and index of the variable(consider i4 to be index 0 and f9 to be index 15).
 
-In each round the variables are shifted by one to the left, but since there are 16 variables in total and 16 rounds, by the end of all the rounds it comes back to the initial variable.
+In each round the values in the variables are shifted to the variable on the left, but since there are 16 variables in total and 16 rounds, by the end of all the rounds it comes back to the initial variable.
 
 We know that the max initial value in each variable is `65537` due to the modulus used in calculation, so we can brute the initial value in each variable separately until it matches the constraint. Once we find all the initial values for each of the flag variables, we can convert each of them to bytes and get the flag!
 
